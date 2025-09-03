@@ -1,0 +1,31 @@
+{
+  "values": [
+    "candyworld:sugar_sand",
+    "candyworld:candy_grass_block",
+    "candyworld:milk_brownie_block",
+    "candyworld:chocolate_covered_white_brownie",
+    "candyworld:white_brownie_block",
+    "candyworld:dark_candy_grass_block",
+    "candyworld:dark_brownie_block",
+    "candyworld:red_gummy_block",
+    "candyworld:orange_gummy_block",
+    "candyworld:yellow_gummy_block",
+    "candyworld:white_gummy_block",
+    "candyworld:green_gummy_block",
+    "candyworld:red_hardened_gummy_block",
+    "candyworld:orange_hardened_gummy_block",
+    "candyworld:yellow_hardened_gummy_block",
+    "candyworld:white_hardened_gummy_block",
+    "candyworld:green_hardened_gummy_block",
+    "candyworld:red_gummy_worm_block",
+    "candyworld:orange_gummy_worm_block",
+    "candyworld:yellow_gummy_worm_block",
+    "candyworld:white_gummy_worm_block",
+    "candyworld:green_gummy_worm_block",
+    "candyworld:red_gummy_workbench",
+    "candyworld:orange_gummy_workbench",
+    "candyworld:yellow_gummy_workbench",
+    "candyworld:white_gummy_workbench",
+    "candyworld:green_gummy_workbench"
+  ]
+}

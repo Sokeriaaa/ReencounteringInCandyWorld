@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "candyworld:white_candy_cane"
+    },
+    "@": {
+      "item": "candyworld:green_candy_cane"
+    }
+  },
+  "pattern": [
+    "#@",
+    "@#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "candyworld:white_green_candy_cane_block"
+  }
+}

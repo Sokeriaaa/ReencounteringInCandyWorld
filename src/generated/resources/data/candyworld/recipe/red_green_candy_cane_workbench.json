@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "candyworld:red_green_candy_cane_block"
+    },
+    "@": {
+      "item": "candyworld:cotton_candy"
+    }
+  },
+  "pattern": [
+    "@@",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "candyworld:red_green_candy_cane_workbench"
+  }
+}

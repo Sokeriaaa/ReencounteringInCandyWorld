@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "candyworld:block/candy_cane_workbench_top",
+    "side": "candyworld:block/candy_cane_workbench_red_green_side",
+    "bottom": "candyworld:block/caneblock_red_green_top",
+    "particle": "candyworld:block/caneblock_red_green"
+  }
+}

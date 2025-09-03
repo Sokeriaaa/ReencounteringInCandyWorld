@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "candyworld:white_chocolate_bar"
+    },
+    {
+      "tag": "c:crops/wheat"
+    },
+    {
+      "item": "candyworld:butter"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "id": "candyworld:white_brownie"
+  }
+}

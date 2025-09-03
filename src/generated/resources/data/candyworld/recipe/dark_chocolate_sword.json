@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "candyworld:dark_chocolate_bar"
+    },
+    "W": {
+      "item": "candyworld:wafer_stick"
+    }
+  },
+  "pattern": [
+    " B ",
+    " B ",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "candyworld:dark_chocolate_sword"
+  }
+}

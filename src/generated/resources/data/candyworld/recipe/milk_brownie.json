@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "candyworld:milk_chocolate_egg"
+    },
+    {
+      "tag": "c:crops/wheat"
+    },
+    {
+      "item": "candyworld:butter"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "id": "candyworld:milk_brownie"
+  }
+}

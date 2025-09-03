@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "candyworld:cotton_candy"
+    },
+    "W": {
+      "item": "candyworld:wafer_stick"
+    }
+  },
+  "pattern": [
+    "BBB",
+    " W ",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "candyworld:cotton_candy_pickaxe"
+  }
+}

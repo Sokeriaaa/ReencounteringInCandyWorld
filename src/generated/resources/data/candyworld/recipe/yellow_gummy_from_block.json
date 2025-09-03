@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "candyworld:yellow_gummy_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "candyworld:yellow_gummy"
+  }
+}

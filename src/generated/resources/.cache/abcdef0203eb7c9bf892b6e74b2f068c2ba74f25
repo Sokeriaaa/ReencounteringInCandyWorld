@@ -1,0 +1,21 @@
+// 1.21.1	2025-09-03T20:13:39.2101771	Tags for minecraft:item mod id candyworld
+e99b21ff7cd338ecf78d44e124639e89148990cb data/candyworld/tags/item/chocolate_bars.json
+7b0844a10d9c2bde2cf15189a2a5f9d155980d92 data/candyworld/tags/item/chocolate_bars/dark.json
+9ff514e3a2fe84dcf90c4e3b06f65a751fa528f0 data/candyworld/tags/item/chocolate_bars/milk.json
+be8d82793cd0e2699fd664a05e6d91da3287e435 data/candyworld/tags/item/chocolate_bars/white.json
+d0536a57a95764eabb06314121667c186fce8baf data/candyworld/tags/item/chocolate_eggs.json
+5ef0ec082daa5c4845bc9d72cb1e32f24103f1ba data/candyworld/tags/item/chocolate_eggs/dark.json
+53310f6d3846e0b9b8763af9c24b082585be9b9e data/candyworld/tags/item/chocolate_eggs/milk.json
+0d65d5228e3a4d622bf0d3cefd0689dad9353643 data/candyworld/tags/item/chocolate_eggs/white.json
+001276b046e8fd7d4701b389bb84d831d350f1a4 data/candyworld/tags/item/gummys.json
+a3d043350cde4aa478aaed687e309da0129484d1 data/candyworld/tags/item/gummys/green.json
+2ae3b530cd68a1f657e52edad683ce3015c9a7a9 data/candyworld/tags/item/gummys/orange.json
+96b97daf2045424510b580c5fd8484b105d21d05 data/candyworld/tags/item/gummys/red.json
+6c9b4cc43570122b840478e5a47acd6d34d5f972 data/candyworld/tags/item/gummys/white.json
+9ae96478177cd3378747d748e43f02a49d05e1ba data/candyworld/tags/item/gummys/yellow.json
+4f5896c4c68a2a63b619e70514dea744defd945b data/candyworld/tags/item/gummy_worms.json
+94d1fcfe5947e26fb3603de600d51525b6a22426 data/candyworld/tags/item/gummy_worms/green.json
+6d2f665b0849fb9c4333d434233bc6e1f55492fb data/candyworld/tags/item/gummy_worms/orange.json
+b9baef0db20a2d40a7564685c75c2159558574e8 data/candyworld/tags/item/gummy_worms/red.json
+0def4e89b070453bb33b4e029563dbae9c9f49e0 data/candyworld/tags/item/gummy_worms/white.json
+a9341a338ac8397431bc360bc2dc4f726f06a703 data/candyworld/tags/item/gummy_worms/yellow.json

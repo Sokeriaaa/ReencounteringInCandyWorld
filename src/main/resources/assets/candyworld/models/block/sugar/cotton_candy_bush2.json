@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "render_type": "minecraft:cutout",
+  "textures":
+  {
+    "cross": "candyworld:block/cotton_candy_bush2"
+  }
+}

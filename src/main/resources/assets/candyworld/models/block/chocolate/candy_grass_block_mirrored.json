@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube_mirrored",
+    "textures": {
+    	"particle": "candyworld:block/candy_soil_milk",
+        "up": "candyworld:block/candy_grass_milk_top",
+        "down": "candyworld:block/candy_soil_milk",
+        "north": "candyworld:block/candy_grass_milk_side",
+        "east": "candyworld:block/candy_grass_milk_side",
+        "south": "candyworld:block/candy_grass_milk_side",
+        "west": "candyworld:block/candy_grass_milk_side"
+    }
+}

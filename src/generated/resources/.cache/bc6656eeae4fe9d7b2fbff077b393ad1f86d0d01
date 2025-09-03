@@ -1,0 +1,19 @@
+// 1.21.1	2025-09-03T20:13:39.2165551	Tags for minecraft:block mod id candyworld
+05525b99a875ca056914527bb067a9de1544780e data/candyworld/tags/block/brownie.json
+8d8845bac4febe26cfa3d9e757e686e734e0a6ad data/candyworld/tags/block/candy_soil.json
+728e78191fea9c6278b37b0cc168fcf6252a7d1f data/candyworld/tags/block/chocolate_leaves.json
+e2cf49b66168af28a192b3d97075c16f02b384a6 data/candyworld/tags/block/cotton_candy_leaves.json
+350f767468645bd26e314ceed7be901c4a538af7 data/candyworld/tags/block/covered_brownie.json
+838110cec38b673dc636f0f11f2069befb6f937d data/candyworld/tags/block/gummy.json
+da1233276e3ab35998d81a1b9bccf3322478c584 data/candyworld/tags/block/sugar.json
+cd319a30689716103eb04792c0600d22635bd7fb data/minecraft/tags/block/leaves.json
+6fe357ef233cb8f8b5f9e27c72c383795a94edc6 data/minecraft/tags/block/logs.json
+44dd9ae37003165c7837f0ecd109ae94fe53b677 data/minecraft/tags/block/mineable/axe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/block/mineable/hoe.json
+8aafc0e7bb35a4f44088d5c5a5d5ead6c0cc65b6 data/minecraft/tags/block/mineable/pickaxe.json
+fe852f135db5f0500689a4d884998a5581e01fac data/minecraft/tags/block/mineable/shovel.json
+ebd1afd7b0838fcd09a420fe4d9c8c22974f4c9a data/minecraft/tags/block/overworld_carver_replaceables.json
+f43cb9d0a6bd2fedc2e8e4fe3c69553aacd98cbd data/minecraft/tags/block/replaceable.json
+74bd04628a59e7d08ead407c5253ce088cb12f39 data/minecraft/tags/block/replaceable_by_trees.json
+1fead21949967c074de5f05a83e9a864e0bb4423 data/minecraft/tags/block/saplings.json
+74bd04628a59e7d08ead407c5253ce088cb12f39 data/minecraft/tags/block/sword_efficient.json

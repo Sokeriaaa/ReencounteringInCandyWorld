@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "candyworld:item/tool/chocolate/chocolate_pickaxe_milk"
+  }
+}

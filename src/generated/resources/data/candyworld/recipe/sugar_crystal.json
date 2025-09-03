@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "candyworld:crystallized_sugar"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "candyworld:sugar_crystal"
+  }
+}

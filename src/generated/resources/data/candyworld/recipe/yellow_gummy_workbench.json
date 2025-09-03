@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "candyworld:yellow_gummy_worm_block"
+    },
+    "@": {
+      "item": "candyworld:yellow_gummy"
+    }
+  },
+  "pattern": [
+    "@@",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "candyworld:yellow_gummy_workbench"
+  }
+}
