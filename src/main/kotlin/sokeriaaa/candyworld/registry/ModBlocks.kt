@@ -120,6 +120,7 @@ object ModBlocks {
                 .mapColor(MapColor.COLOR_BROWN)
                 .noCollission()
                 .instabreak()
+                .replaceable()
                 .offsetType(OffsetType.XYZ)
                 .sound(SoundType.GRASS),
         )
@@ -131,6 +132,7 @@ object ModBlocks {
                 .mapColor(MapColor.COLOR_BROWN)
                 .noCollission()
                 .instabreak()
+                .replaceable()
                 .offsetType(OffsetType.XYZ)
                 .sound(SoundType.GRASS),
         )
@@ -142,6 +144,7 @@ object ModBlocks {
                 .mapColor(MapColor.COLOR_BROWN)
                 .noCollission()
                 .instabreak()
+                .replaceable()
                 .offsetType(OffsetType.XYZ)
                 .sound(SoundType.GRASS),
         )
@@ -268,6 +271,7 @@ object ModBlocks {
                 .mapColor(MapColor.COLOR_PINK)
                 .noCollission()
                 .instabreak()
+                .replaceable()
                 .offsetType(OffsetType.XYZ)
                 .sound(ModSoundTypes.COTTON_CANDY),
         )
@@ -694,6 +698,7 @@ object ModBlocks {
             BlockBehaviour.Properties.of()
                 .noCollission()
                 .strength(100.0F)
+                .replaceable()
                 .noLootTable(),
         )
     }
@@ -705,6 +710,7 @@ object ModBlocks {
                 .noCollission()
                 .strength(100.0F)
                 .lightLevel { 12 }
+                .replaceable()
                 .noLootTable(),
         )
     }

@@ -350,7 +350,7 @@ open class EasterChicken(
             pos: BlockPos,
             random: RandomSource
         ): Boolean {
-            return serverLevel.getBlockState(pos.below()).`is`(ModBlocks.CANDY_GRASS_BLOCK.value)
+            return serverLevel.getBlockState(pos.below()).`is`(ModBlocks.CHOCOLATE_COVERED_WHITE_BROWNIE.value)
                     && serverLevel.getRawBrightness(pos, 0) > 8
         }
 

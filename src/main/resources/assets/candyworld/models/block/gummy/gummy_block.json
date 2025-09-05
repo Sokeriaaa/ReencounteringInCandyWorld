@@ -1,5 +1,6 @@
 {
   "parent": "block/leaves",
+  "render_type": "minecraft:translucent",
   "textures": {
     "all": "candyworld:block/gummy_block_transluscent"
   }
