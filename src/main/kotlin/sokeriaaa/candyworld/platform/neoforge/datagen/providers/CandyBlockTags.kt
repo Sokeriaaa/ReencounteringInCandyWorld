@@ -176,5 +176,44 @@ class CandyBlockTags(
             .add(ModBlocks.WHITE_CHOCOLATE_MUSHROOM.value)
             .add(ModBlocks.DARK_CHOCOLATE_MUSHROOM.value)
             .add(ModBlocks.COTTON_CANDY_BUSH.value)
+
+        // c tags
+        this.tag(ModTags.C_BLOCK_ORES)
+            .add(ModBlocks.COOKIE_ORE.value)
+            .add(ModBlocks.TELEPORTER_ORE.value)
+            .add(ModBlocks.CRYSTALLIZED_SUGAR_COOKIE_ORE.value)
+        this.tag(ModTags.C_BLOCK_ORES_COOKIE)
+            .add(ModBlocks.COOKIE_ORE.value)
+            .add(ModBlocks.CRYSTALLIZED_SUGAR_COOKIE_ORE.value)
+        this.tag(ModTags.C_BLOCK_ORES_TELEPORTER)
+            .add(ModBlocks.TELEPORTER_ORE.value)
+        this.tag(ModTags.C_BLOCK_ORES_IN_GROUND_STONE)
+            .add(ModBlocks.COOKIE_ORE.value)
+        this.tag(ModTags.C_BLOCK_ORES_IN_GROUND_CRYSTALLIZED_SUGAR)
+            .add(ModBlocks.TELEPORTER_ORE.value)
+            .add(ModBlocks.CRYSTALLIZED_SUGAR_COOKIE_ORE.value)
+        this.tag(ModTags.C_BLOCK_ORE_RATE_SINGULAR)
+            .add(ModBlocks.COOKIE_ORE.value)
+            .add(ModBlocks.CRYSTALLIZED_SUGAR_COOKIE_ORE.value)
+        this.tag(ModTags.C_BLOCK_ORE_RATE_SPARSE)
+            .add(ModBlocks.TELEPORTER_ORE.value)
+
+        this.tag(ModTags.C_BLOCK_CRAFT_TABLE)
+            .add(
+                ModBlocks.WHITE_CANDY_CANE_WORKBENCH.value,
+                ModBlocks.RED_CANDY_CANE_WORKBENCH.value,
+                ModBlocks.GREEN_CANDY_CANE_WORKBENCH.value,
+                ModBlocks.WHITE_RED_CANDY_CANE_WORKBENCH.value,
+                ModBlocks.WHITE_GREEN_CANDY_CANE_WORKBENCH.value,
+                ModBlocks.RED_GREEN_CANDY_CANE_WORKBENCH.value,
+                ModBlocks.MILK_CHOCOLATE_WORKBENCH.value,
+                ModBlocks.WHITE_CHOCOLATE_WORKBENCH.value,
+                ModBlocks.DARK_CHOCOLATE_WORKBENCH.value,
+                ModBlocks.RED_GUMMY_WORKBENCH.value,
+                ModBlocks.ORANGE_GUMMY_WORKBENCH.value,
+                ModBlocks.YELLOW_GUMMY_WORKBENCH.value,
+                ModBlocks.WHITE_GUMMY_WORKBENCH.value,
+                ModBlocks.GREEN_GUMMY_WORKBENCH.value,
+            )
     }
 }

@@ -27,5 +27,9 @@ class CandyFluidTags(
             ModFluids.LIQUID_CANDY_SOURCE.value,
             ModFluids.LIQUID_CANDY_FLOWING.value,
         )
+        this.tag(ModTags.C_FLUID_CHOCOLATE).add(
+            ModFluids.LIQUID_CHOCOLATE_SOURCE.value,
+            ModFluids.LIQUID_CHOCOLATE_FLOWING.value,
+        )
     }
 }

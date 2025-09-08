@@ -1,4 +1,4 @@
-// 1.21.1	2025-09-03T20:13:39.2101771	Tags for minecraft:item mod id candyworld
+// 1.21.1	2025-09-06T20:19:38.9367378	Tags for minecraft:item mod id candyworld
 e99b21ff7cd338ecf78d44e124639e89148990cb data/candyworld/tags/item/chocolate_bars.json
 7b0844a10d9c2bde2cf15189a2a5f9d155980d92 data/candyworld/tags/item/chocolate_bars/dark.json
 9ff514e3a2fe84dcf90c4e3b06f65a751fa528f0 data/candyworld/tags/item/chocolate_bars/milk.json
@@ -19,3 +19,10 @@ a3d043350cde4aa478aaed687e309da0129484d1 data/candyworld/tags/item/gummys/green.
 b9baef0db20a2d40a7564685c75c2159558574e8 data/candyworld/tags/item/gummy_worms/red.json
 0def4e89b070453bb33b4e029563dbae9c9f49e0 data/candyworld/tags/item/gummy_worms/white.json
 a9341a338ac8397431bc360bc2dc4f726f06a703 data/candyworld/tags/item/gummy_worms/yellow.json
+b6da798d270fe0099352869c562a6ecf6fe7429a data/c/tags/item/ores.json
+5a41ba3141d3ce97fe5b74f525a8cabce222aac8 data/c/tags/item/ores/cookie.json
+dedf41eb4329b25815d0dbe3154db57182af909f data/c/tags/item/ores/teleporter.json
+11bad09526d5f89c1505199dbaa7b714cc377aef data/c/tags/item/ores_in_ground/crystallized_sugar.json
+31c17fb50a3e815375bb91a77ce554d8656ec70c data/c/tags/item/ores_in_ground/stone.json
+5a41ba3141d3ce97fe5b74f525a8cabce222aac8 data/c/tags/item/ore_rates/singular.json
+dedf41eb4329b25815d0dbe3154db57182af909f data/c/tags/item/ore_rates/sparse.json

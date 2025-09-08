@@ -41,15 +41,15 @@ sealed interface CandyConfig {
         data class Biome(
             val comment: String = "Biome settings",
             val weightCottonCandyPlains: Comment.IntValue = Comment.IntValue(
-                comment = "Overworld cotton candy plains biome weight. 0 to prevent generation in overworld",
+                comment = "Overworld cotton candy plains biome weight. Requires TerraBlender. 0 to prevent generation in overworld",
                 value = 2,
             ),
             val weightChocolateForest: Comment.IntValue = Comment.IntValue(
-                comment = "Overworld chocolate forest biome weight. 0 to prevent generation in overworld",
+                comment = "Overworld chocolate forest biome weight. Requires TerraBlender. 0 to prevent generation in overworld",
                 value = 2,
             ),
             val weightGummySwamp: Comment.IntValue = Comment.IntValue(
-                comment = "Overworld gummy swamp biome weight. 0 to prevent generation in overworld",
+                comment = "Overworld gummy swamp biome weight. Requires TerraBlender. 0 to prevent generation in overworld",
                 value = 2,
             ),
         )

@@ -32,36 +32,38 @@ class CandyWorldNeoForge(modEventBus: IEventBus, modContainer: ModContainer) {
 
 
     private fun commonSetup(event: FMLCommonSetupEvent) {
-        event.enqueueWork {
-            // TerraBlender - Regions
-            Regions.register(
-                ChocolateForestRegion(
-                    CandyWorld.id(ModBiomes.CHOCOLATE_FOREST_BUILDER.path),
-                    CandyConfig.COMMON.weightChocolateForest,
+        if (Platform.common.isModLoaded("terrablender")) {
+            event.enqueueWork {
+                // TerraBlender - Regions
+                Regions.register(
+                    ChocolateForestRegion(
+                        CandyWorld.id(ModBiomes.CHOCOLATE_FOREST_BUILDER.path),
+                        CandyConfig.COMMON.weightChocolateForest,
+                    )
                 )
-            )
-            Regions.register(
-                CottonCandyPlainsRegion(
-                    CandyWorld.id(ModBiomes.COTTON_CANDY_PLAINS_BUILDER.path),
-                    CandyConfig.COMMON.weightCottonCandyPlains,
+                Regions.register(
+                    CottonCandyPlainsRegion(
+                        CandyWorld.id(ModBiomes.COTTON_CANDY_PLAINS_BUILDER.path),
+                        CandyConfig.COMMON.weightCottonCandyPlains,
+                    )
                 )
-            )
-            Regions.register(
-                GummySwampRegion(
-                    CandyWorld.id(ModBiomes.GUMMY_SWAMP_BUILDER.path),
-                    CandyConfig.COMMON.weightGummySwamp,
+                Regions.register(
+                    GummySwampRegion(
+                        CandyWorld.id(ModBiomes.GUMMY_SWAMP_BUILDER.path),
+                        CandyConfig.COMMON.weightGummySwamp,
+                    )
                 )
-            )
-            // TerraBlender - SurfaceRules
-            SurfaceRuleManager.addSurfaceRules(
-                SurfaceRuleManager.RuleCategory.OVERWORLD,
-                CandyWorld.MOD_ID,
-                SurfaceRules.sequence(
-                    ModSurfaceRules.CANDY_SURFACE_RULES,
-                    ModSurfaceRules.CHOCOLATE_SURFACE_RULES,
-                    ModSurfaceRules.GUMMY_SURFACE_RULES,
+                // TerraBlender - SurfaceRules
+                SurfaceRuleManager.addSurfaceRules(
+                    SurfaceRuleManager.RuleCategory.OVERWORLD,
+                    CandyWorld.MOD_ID,
+                    SurfaceRules.sequence(
+                        ModSurfaceRules.CANDY_SURFACE_RULES,
+                        ModSurfaceRules.CHOCOLATE_SURFACE_RULES,
+                        ModSurfaceRules.GUMMY_SURFACE_RULES,
+                    )
                 )
-            )
+            }
         }
     }
 

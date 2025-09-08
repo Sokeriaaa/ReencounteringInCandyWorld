@@ -6,6 +6,7 @@ import net.minecraft.data.tags.ItemTagsProvider
 import net.minecraft.world.level.block.Block
 import net.neoforged.neoforge.common.data.ExistingFileHelper
 import sokeriaaa.candyworld.CandyWorld
+import sokeriaaa.candyworld.registry.ModBlocks
 import sokeriaaa.candyworld.registry.ModItems
 import sokeriaaa.candyworld.registry.ModTags
 import java.util.concurrent.CompletableFuture
@@ -63,5 +64,25 @@ class CandyItemTags(
             ModTags.GUMMYS_YELLOW,
             ModTags.GUMMY_WORMS,
         )
+        // c tags
+        this.tag(ModTags.C_ITEM_ORES)
+            .add(ModBlocks.COOKIE_ORE.value.asItem())
+            .add(ModBlocks.TELEPORTER_ORE.value.asItem())
+            .add(ModBlocks.CRYSTALLIZED_SUGAR_COOKIE_ORE.value.asItem())
+        this.tag(ModTags.C_ITEM_ORES_COOKIE)
+            .add(ModBlocks.COOKIE_ORE.value.asItem())
+            .add(ModBlocks.CRYSTALLIZED_SUGAR_COOKIE_ORE.value.asItem())
+        this.tag(ModTags.C_ITEM_ORES_TELEPORTER)
+            .add(ModBlocks.TELEPORTER_ORE.value.asItem())
+        this.tag(ModTags.C_ITEM_ORES_IN_GROUND_STONE)
+            .add(ModBlocks.COOKIE_ORE.value.asItem())
+        this.tag(ModTags.C_ITEM_ORES_IN_GROUND_CRYSTALLIZED_SUGAR)
+            .add(ModBlocks.TELEPORTER_ORE.value.asItem())
+            .add(ModBlocks.CRYSTALLIZED_SUGAR_COOKIE_ORE.value.asItem())
+        this.tag(ModTags.C_ITEM_ORE_RATE_SINGULAR)
+            .add(ModBlocks.COOKIE_ORE.value.asItem())
+            .add(ModBlocks.CRYSTALLIZED_SUGAR_COOKIE_ORE.value.asItem())
+        this.tag(ModTags.C_ITEM_ORE_RATE_SPARSE)
+            .add(ModBlocks.TELEPORTER_ORE.value.asItem())
     }
 }

@@ -44,6 +44,25 @@ object ModTags {
 
     val CANDY = fluidTag(":candy")
 
+    val C_BLOCK_ORES = cBlockTag(":ores")
+    val C_BLOCK_ORES_COOKIE = cBlockTag(":ores/cookie")
+    val C_BLOCK_ORES_TELEPORTER = cBlockTag(":ores/teleporter")
+    val C_BLOCK_CRAFT_TABLE = cBlockTag(":player_workstations/crafting_tables")
+    val C_BLOCK_ORES_IN_GROUND_STONE = cBlockTag(":ores_in_ground/stone")
+    val C_BLOCK_ORES_IN_GROUND_CRYSTALLIZED_SUGAR = cBlockTag(":ores_in_ground/crystallized_sugar")
+    val C_BLOCK_ORE_RATE_SPARSE = cBlockTag(":ore_rates/sparse")
+    val C_BLOCK_ORE_RATE_SINGULAR = cBlockTag(":ore_rates/singular")
+
+    val C_ITEM_ORES = cItemTag(":ores")
+    val C_ITEM_ORES_COOKIE = cItemTag(":ores/cookie")
+    val C_ITEM_ORES_TELEPORTER = cItemTag(":ores/teleporter")
+    val C_ITEM_ORES_IN_GROUND_STONE = cItemTag(":ores_in_ground/stone")
+    val C_ITEM_ORES_IN_GROUND_CRYSTALLIZED_SUGAR = cItemTag(":ores_in_ground/crystallized_sugar")
+    val C_ITEM_ORE_RATE_SPARSE = cItemTag(":ore_rates/sparse")
+    val C_ITEM_ORE_RATE_SINGULAR = cItemTag(":ore_rates/singular")
+
+    val C_FLUID_CHOCOLATE = cFluidTag(":chocolates")
+
     private fun itemTag(path: String): TagKey<Item> {
         return TagKey.create(
             Registries.ITEM,
@@ -62,6 +81,27 @@ object ModTags {
         return TagKey.create(
             Registries.FLUID,
             ResourceLocation.parse(CandyWorld.MOD_ID + path),
+        )
+    }
+
+    private fun cItemTag(path: String): TagKey<Item> {
+        return TagKey.create(
+            Registries.ITEM,
+            ResourceLocation.parse("c$path"),
+        )
+    }
+
+    private fun cBlockTag(path: String): TagKey<Block> {
+        return TagKey.create(
+            Registries.BLOCK,
+            ResourceLocation.parse("c$path"),
+        )
+    }
+
+    private fun cFluidTag(path: String): TagKey<Fluid> {
+        return TagKey.create(
+            Registries.FLUID,
+            ResourceLocation.parse("c$path"),
         )
     }
 }
