@@ -1,6 +1,5 @@
 package sokeriaaa.candyworld.registry
 
-import net.minecraft.client.color.block.BlockColor
 import net.minecraft.world.level.block.Block
 import net.minecraft.world.level.block.SlimeBlock
 import net.minecraft.world.level.block.SoundType
@@ -715,56 +714,6 @@ object ModBlocks {
         )
     }
 
-    fun registerBlockColors(
-        registerBlockColor: (BlockColor, Array<Block>) -> Unit,
-    ) {
-        registerBlockColor(
-            simpleBlockColor(0xff4530),
-            arrayOf(
-                RED_GUMMY_BLOCK.value,
-                RED_HARDENED_GUMMY_BLOCK.value,
-                RED_GUMMY_WORKBENCH.value,
-                RED_GUMMY_WORM_BLOCK.value,
-            ),
-        )
-        registerBlockColor(
-            simpleBlockColor(0xff9b4f),
-            arrayOf(
-                ORANGE_GUMMY_BLOCK.value,
-                ORANGE_HARDENED_GUMMY_BLOCK.value,
-                ORANGE_GUMMY_WORKBENCH.value,
-                ORANGE_GUMMY_WORM_BLOCK.value,
-            ),
-        )
-        registerBlockColor(
-            simpleBlockColor(0xffe563),
-            arrayOf(
-                YELLOW_GUMMY_BLOCK.value,
-                YELLOW_HARDENED_GUMMY_BLOCK.value,
-                YELLOW_GUMMY_WORKBENCH.value,
-                YELLOW_GUMMY_WORM_BLOCK.value,
-            ),
-        )
-        registerBlockColor(
-            simpleBlockColor(0xfffeb0),
-            arrayOf(
-                WHITE_GUMMY_BLOCK.value,
-                WHITE_HARDENED_GUMMY_BLOCK.value,
-                WHITE_GUMMY_WORKBENCH.value,
-                WHITE_GUMMY_WORM_BLOCK.value,
-            ),
-        )
-        registerBlockColor(
-            simpleBlockColor(0x80e22b),
-            arrayOf(
-                GREEN_GUMMY_BLOCK.value,
-                GREEN_HARDENED_GUMMY_BLOCK.value,
-                GREEN_GUMMY_WORKBENCH.value,
-                GREEN_GUMMY_WORM_BLOCK.value,
-            ),
-        )
-    }
-
     fun register() {
         CandyWorldRegistry {
             registerBlock(CHOCOLATE_SAPLING, ModCreativeModeTabs.BLOCKS)
@@ -845,8 +794,6 @@ object ModBlocks {
             registerBlock(LIQUID_CANDY_BLOCK)
         }
     }
-
-    private fun simpleBlockColor(color: Int): BlockColor = BlockColor { _, _, _, _ -> color }
 
     private inline fun <reified T : Block> block(
         path: String,
